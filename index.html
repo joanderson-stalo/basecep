@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Selecione Estado e Cidade</title>
+</head>
+<body>
+  <form>
+    <label for="client_address_state">Estado:</label><br>
+    <select id="client_address_state" onchange="filtrarCidades(value)">
+      <option value="">Selecione o estado</option>
+    </select><br>
+    <label for="client_address_city">Cidade:</label><br>
+    <select id="client_address_city">
+      <option value="">Selecione a cidade</option>
+    </select>
+  </form>
+  <script src="./criar-estabelecimentos.js"></script>
+</body>
+</html>
